@@ -64,7 +64,7 @@ body
 	justify-items:center;
 	padding:10px;
 	position:absolute;
-	top:10px;
+	top:0px;
 	left:350px;
 }
 .search input
@@ -132,7 +132,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:26px;
+	top:15px;
 	right:350px;
 }
 .video
@@ -153,7 +153,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:26px;
+	top:15px;
 	right:200px;
 }
 .grid
@@ -174,7 +174,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:26px;
+	top:15px;
 	right:150px;
 }
 .noti
@@ -195,7 +195,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:26px;
+	top:15px;
 	right:100px;
 }
 .acc
@@ -216,7 +216,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:26px;
+	top:15px;
 	right:50px;
 }	
 .general
@@ -237,25 +237,25 @@ body
 .hm
 {
 	position:absolute;
-	top: 54px;
+	top: 15px;
 	left: 65px;
 }
 .ex 
 {
 	position:absolute;
-	top: 88px;
+	top: 50px;
 	left: 65px;
 }
 .srts 
 {
 	position:absolute;
-	top: 122px;
+	top: 85px;
 	left: 65px;
 }
 .sub 
 {
 	position:absolute;
-	top: 160px;
+	top: 122px;
 	left: 65px;
 }
 .home
@@ -276,7 +276,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
     position:absolute;
-    top:50px;
+    top:10px;
     left:23px;
   font-variation-settings:
   'FILL' 1,
@@ -302,7 +302,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-    top:85px;
+    top:48px;
     left:23px;
 	 font-variation-settings:
   	 'FILL' 0,
@@ -328,7 +328,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-    top:155px;
+    top:118px;
     left:23px;
   font-variation-settings:
   'FILL' 0,
@@ -354,7 +354,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-    top:120px;
+    top:83px;
     left:23px;
   font-variation-settings:
   'FILL' 0,
@@ -366,6 +366,27 @@ body
 {
 	position:relative;
 	top:165px;
+}
+.lib
+{
+	font-family: 'Material Icons';
+	font-weight: normal;
+ 	font-style: normal;
+	font-size: 24px;  /* Prferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+	position:absolute;
+	top:250px;
+	left:23px;
 }
 .history
 {
@@ -385,7 +406,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:345px;
+	top:300px;
 	left:23px;
 }
 .yourvideos
@@ -406,7 +427,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top:400px;
+	top:350px;
 	left:23px;
 }
 .watchlater
@@ -427,7 +448,7 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position: absolute;
-	top:450px;
+	top:400px;
 	left:23px;
 }
 .likedvideos
@@ -448,43 +469,37 @@ body
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	position:absolute;
-	top: 500px;
+	top: 450px;
 	left:23px;
-}
-.account img
-{
-	position:absolute;
-	top:285px;
-	left:18px;
 }
 .libr
 {
 	position:absolute;
-	top: 293px;
+	top: 253px;
 	left: 65px;
 }
 .his 
 {
 	position:absolute;
-	top: 348px;
+	top: 304px;
 	left: 65px;
 }
 .yv 
 {
 	position:absolute;
-	top: 403px;
+	top: 353px;
 	left: 65px;
 }
 .wl 
 {
 	position:absolute;
-	top: 453px;
+	top: 405px;
 	left: 65px;
 }
 .lv 
 {
 	position:absolute;
-	top: 503px;
+	top: 455px;
 	left: 65px;
 }
 .account ul li a
@@ -492,8 +507,161 @@ body
 	text-decoration: none;
 	color:black;
 }
+.general hr
+{
+	position: relative;
+	top : 250px;
+}
 .account hr
 {
 	position: relative;
-	top:450px
+	top:400px
+}
+.subscriptions h5
+{
+	position:absolute;
+	top : 490px;
+	left : 22px;
+}
+.music
+{
+	font-family: 'Material Icons';
+	font-weight: normal;
+ 	font-style: normal;
+	font-size: 24px;  /* Prferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+	position:absolute;
+	top:545px;
+	left : 26px;
+}
+.sports
+{
+	font-family: 'Material Icons';
+	font-weight: normal;
+ 	font-style: normal;
+	font-size: 24px;  /* Prferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';	
+	position:absolute;
+	top : 590px;
+	left:26px;
+}
+.gaming
+{
+	font-family: 'Material Icons';
+	font-weight: normal;
+ 	font-style: normal;
+	font-size: 24px;  /* Prferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+	position: absolute;
+	top:630px;
+	left:26px;
+}
+.movies
+{
+	font-family: 'Material Icons';
+	font-weight: normal;
+ 	font-style: normal;
+	font-size: 24px;  /* Prferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+	position: absolute;
+	top : 670px;
+	left : 26px;
+}
+.subscriptions ul li a
+{
+	text-decoration: none;
+	color:black;
+}
+.mus
+{
+	position:absolute;
+	top : 548px;
+	left : 65px;
+}
+.spo 
+{
+	position: absolute;
+	top : 592px;
+	left : 65px;
+}
+.gam 
+{
+	position: absolute;
+	top : 633px;
+	left : 65px;
+}
+.mov 
+{
+	position : absolute;
+	top : 673px;
+	left : 65px;
+}
+.contents
+{
+	width : 100%;
+}
+.elements
+{
+	position:absolute;
+	top : 100px;
+	left : 200px;
+	background-color:white;
+	display:grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	grid-auto-rows:250px 250px 250px 250px;
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
+}
+.elements :nth-child(odd)
+{
+	background-color: black;
+}
+.elements :nth-child(even)
+{
+	background-color: crimson;
+}
+.elements img
+{
+	width:100%;
+	height:100%;
 }
