@@ -1,105 +1,155 @@
 <html>
-<head>
-	<title>YouTube</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="media.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+    <head>
+        <title>YouTube</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="https://kit.fontawesome.com/6ee374ce85.js" crossorigin="anonymous"></script>
+    </head>
 <body>
-	<div class = "taskbar">
-		<div class = "menu">
-			<span class="ham">menu</span>
-			<img src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg">
-			</img>
-		</div>
-		<div class = "search">
-			<form>
-			<input type = "text" placeholder="Search">
-			</form>
-	`		<button><span class="material-icons">search</span></button>
-		</div>
-		<div class = "icons">
-		<i class="video">video_call</i>
-		<i class="grid">grid_on</i>
-		<i class="noti">notifications</i>
-		<i class="acc">account_circle</i>
-		</div>
-		<div><i class="mic">mic</i></div>
-	</div>
-	<div class="Navbar">
-		<div class="general">
-			<span class="home">home</span>
-			<span class="explore">explore</span>
-			<span class="shorts">play_circle</span>
-			<span class="subs">subscriptions</span>
-			<ul>
-				<span class="hm"><li><a href="">Home</a></li></span>
-				<span class="ex"><li><a href="">Explore</a></li></span>
-				<span class="srts"><li><a href="">Shorts</a></li></span>
-				<span class="sub"><li><a href="">Subscriptions</a></li></span>
-			</ul>
-			<hr>
-		</div>
-		<div class="account">
-			<span class="lib">video_library</span>
-			<span class="history">history</span>
-			<span class="yourvideos">play_arrow</span>
-			<span class="watchlater">schedule</span>
-			<span class="likedvideos">thumb_up</span>
-			<ul>
-				<span class="libr"><li><a href="">Library</a></li></span>
-				<span class="his"><li><a href="">History</a></li></span>
-				<span class="yv"><li><a href="">Your videos</a></li></span>
-				<span class="wl"><li><a href="">Watch later</a></li></span>
-				<span class="lv"><li><a href="">Liked videos</a></li></span>
-			</ul>
-		</div>
-		<div class="subscriptions">
-			<h5>SUBSCRIPTIONS</h5>
-			<div class="music">music_video</div>
-			<div class="sports">military_tech</div>
-			<div class="gaming">sports_esports</div>
-			<div class="movies">movie_filter</div>
-			<ul>
-				<span class="mus"><li><a href="">Music</a></li></span>
-				<span class="spo"><li><a href="">Sports</a></li></span>
-				<span class="gam"><li><a href="">Gaming</a></li></span>
-				<span class="mov"><li><a href="">Movies</a></li></span>
-			</ul>
-		</div>
-	</div>
-	<div class = "contents">
-		<div class="elements">
-			<div class="one"><img src = "https://upload.wikimedia.org/wikipedia/commons/3/31/2018_BMW_M5_Automatic_4.4.jpg"></div>
-			<div class="two"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/2015_Porsche_Cayman_GTS_S-A_3.4_Front.jpg"></div>
-			<div class="three"><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/2008_Bugatti_Veyron.jpg"></div>
-			<div class="four"><img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Aston_Martin_DBS_Superleggera_Convertible.jpg"></div>
-			<div class="five"><img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Audi%2C_Paris_Motor_Show_2018%2C_Paris_%281Y7A1137%29.jpg"></div>
-			<div class="six"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Mazda_Roadster_%28MX-5%29_by_Negawa_Bridge_%28cropped%29.jpg"></div>
-			<div class="seven"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Rolls-Royce_Dawn_Goodwood_05.jpg"></div>
-			<div class="eight"><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Ferrari_F430_F1.jpg"></div>
-		</div>
-	</div>
-	<div class="mobile">
-		<button><span class="material-icons">search</span></button>
-		<icon><span class="cast">podcasts</span></icon>
-		<div class="down_navbar">
-			<icon><span class="hme">home</span></icon>
-			<icon><span class="sorts">play_circle</span></icon>
-			<icon><span class="add">add_circle</span></icon>
-			<icon><span class="subscribe">subscriptions</span></icon>
-			<icon><span class="library">video_library</span></icon>
-			<span class="homee">Home</span>
-			<span class="sort">Shorts</span>
-			<span class="subscript">Subscriptions</span>
-			<span class="lby">Library</span>
-		</div>
-		<div class="vid">
-			<div class="videos">
-				<div class=""><img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Black_Panther_Wakanda_Forever_logo.png"></div>
-				<div class=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Spider-Man_NWH.png"></div>
-			</div>
-		</div>
-	</div>
+    <nav class="flex">
+        <div class="nav-left flex">
+            <i class="fa-solid fa-bars ham"></i>
+           <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg">
+        </div>
+        <div class="nav-middle flex" >
+            <div class="searchbox flex">
+                <input type="search" placeholder="Search">
+               <span class="glass"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+           <span class="mic"><i class="fa-solid fa-microphone"></i></span>
+        </div>
+        <div class="nav-right flex">
+            <span class="video"><i class="fa-solid fa-video"></i></span>
+            <span class="grid"><i class="fa-solid fa-table-cells"></i></span>
+            <span class="bell"><i class="fa-solid fa-bell"></i></span>
+            <span class="profile"><i class="fa-solid fa-user"></i></span>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <div class="general">
+            <a href = ""><i class="fa-solid fa-house"></i><p class="hm">Home</p></a>
+            <a href = ""><i class="fa-solid fa-compass"></i><p>Explore</p></a>
+            <a href = ""><i class="fa-solid fa-photo-film"></i><p>Shorts</p></a>
+            <a href = ""><i class="fa-solid fa-play"></i><p>Subscriptions</p></a>
+            <a href = ""><i class="fa-solid fa-book"></i><p>Library</p></a>
+            <span class="his"><a href = ""><i class="fa-solid fa-clock-rotate-left "></i><p>History</p></a></span>
+            <span class="yv"><a href = ""><i class="fa-solid fa-circle-play "></i><p>Your videos</p></a></span>
+            <span class="wl"><a href = ""><i class="fa-solid fa-clock "></i><p>Watch later</p></a></span>
+            <span class="lv"><a href = ""><i class="fa-solid fa-thumbs-up "></i><p>Liked videos</p></a></span>
+            <hr>
+            <div class="subscriptions">
+                <h5>SUBSCRIPTIONS</h5>
+            </div>
+            <div class="account">
+                <span class="his"><a href = ""><i class="fa-solid fa-clock-rotate-left "></i><p>History</p></a></span>
+                <span class="yv"><a href = ""><i class="fa-solid fa-circle-play "></i><p>Your videos</p></a></span>
+                <span class="wl"><a href = ""><i class="fa-solid fa-clock "></i><p>Watch later</p></a></span>
+                <span class="lv"><a href = ""><i class="fa-solid fa-thumbs-up "></i><p>Liked videos</p></a></span>
+            </div>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="videos">
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Chris_Evans_-_Captain_America_2_press_conference.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Marvel_Studios_logo.svg"></a>
+                    <div class="vid-info">
+                        <a href=""><p>Marvel confirms CAPTAIN AMERICA 5 !!!</p></a>
+                        <p>Marvel India</p>
+                        <p>100M Views &bull; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src = "script1.js"></script>
 </body>
 </html>
